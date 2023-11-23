@@ -85,7 +85,7 @@
     top: -100px;
     margin-left: 10px;
     animation-name: discesa;
-    animation-duration: 6s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     color: rgb(100, 100, 255);
@@ -97,8 +97,8 @@
     top: -100px;
     margin-left: 10px;
     animation-name: discesa;
-    animation-duration: 6s;
-    animation-delay: 2s;
+    animation-duration: 9s;
+    animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     color: rgb(100, 100, 255);
@@ -109,8 +109,8 @@
     top: -100px;
     margin-left: 10px;
     animation-name: discesa;
-    animation-duration: 6s;
-    animation-delay: 4s;
+    animation-duration: 9s;
+    animation-delay: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     color: rgb(100, 100, 255);
