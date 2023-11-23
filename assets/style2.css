@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#contenitore{
+    border: 2px solid black;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    margin-top: 300px;
+}
+
+
+
+/*@keyframes discesa{
+    from {top:-100px}
+    3%{opacity: 0.2;}
+    6%{opacity: 0.3;}
+    9%{opacity: 0.4;}
+    12%{opacity: 0.5;}
+    15%{opacity: 0.6;}
+    18%{opacity: 0.7;}
+    21%{opacity: 0.8;}
+    24%{opacity: 0.9;}
+    27%{opacity: 1;}
+    30%{top: 430px;}
+    31%{top: 430px;}
+    32%{top: 430px;
+    opacity: 0;}
+    33%{top: 430px;
+    opacity: 0;}
+    50%{opacity: 0;}
+    70%{opacity: 0;}
+    90%{opacity: 0;}
+    to{top: 430px;
+    opacity: 0;}
+}*/
+
+@keyframes discesa{
+    from {top:-100px}
+    3%{opacity: 0.1;}
+    6%{opacity: 0.2;}
+    9%{opacity: 0.3;}
+    12%{opacity: 0.4;}
+    15%{opacity: 0.5;}
+    18%{opacity: 0.6;}
+    21%{opacity: 0.7;}
+    24%{opacity: 0.8;}
+    27%{opacity: 0.9;}
+    30%{opacity: 1;}
+    33%{top: 430px;}
+    36%{top: 430px;}
+    39%{top: 430px;}
+    42%{top: 430px;
+    opacity: 0;}
+    45%{top: 430px;
+    opacity: 0;}
+    to{top: 430px;
+    opacity: 0;}
+}
+
+
+#primo {
+    position: absolute;
+    top: -100px;
+    margin-left: 10px;
+    animation-name: discesa;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: rgb(100, 100, 255);
+}
+
+
+#secondo{
+    position: absolute;
+    top: -100px;
+    margin-left: 10px;
+    animation-name: discesa;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: rgb(100, 100, 255);
+}
+
+#terzo{
+    position: absolute;
+    top: -100px;
+    margin-left: 10px;
+    animation-name: discesa;
+    animation-duration: 6s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: rgb(100, 100, 255);
+}

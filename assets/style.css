@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Caveat', cursive;
+}
+
+#lavagnaGrigia{
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div{
+    padding: 6% 0;
+    margin: 2%;
+    flex-basis: 20%;
+    font-size: 30px;
+    box-shadow: 10px 5px 5px rgb(61, 61, 61);
+}
+
+div p:first-of-type{
+    font-weight: bold;
+}
+
+.postIt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#strano{
+    transform: rotate(-10deg);
+    background: rgb(194,196,196);
+background: linear-gradient(180deg, rgba(194,196,196,1) 9%, rgba(96,96,96,1) 82%);
+}
+
+div:nth-child(2){
+    background: rgb(194,196,196);
+background: linear-gradient(180deg, rgba(194,196,196,1) 29%, rgba(32,125,0,1) 92%);
+    transform: rotate(10deg);
+}
+
+div:nth-child(3){
+    background: rgb(194,196,196);
+background: linear-gradient(180deg, rgba(194,196,196,1) 29%, rgba(125,0,122,1) 92%);
+    transform: rotate(-10deg);
+}
+
+div:nth-child(4){
+    background: rgb(194,196,196);
+background: linear-gradient(180deg, rgba(194,196,196,1) 29%, rgba(0,105,125,1) 92%);
+    transform: rotate(10deg);
+}
+
+div:nth-child(5){
+    background: rgb(194,196,196);
+background: linear-gradient(180deg, rgba(194,196,196,1) 29%, rgba(125,0,122,1) 92%);
+    transform: rotate(-10deg);
+}
+
+div:nth-child(6){
+    background: rgb(194,196,196);
+background: linear-gradient(180deg, rgba(194,196,196,1) 9%, rgba(96,96,96,1) 82%);
+    transform: rotate(10deg);
+}
+
+div:nth-child(7){
+    background: rgb(194,196,196);
+background: linear-gradient(180deg, rgba(194,196,196,1) 29%, rgba(0,105,125,1) 92%);
+    transform: rotate(-10deg);
+}
+
+div:nth-child(8){
+    background: rgb(194,196,196);
+background: linear-gradient(180deg, rgba(194,196,196,1) 29%, rgba(32,125,0,1) 92%);
+    transform: rotate(10deg);
+}
+
+#lavagnaGrigia div:hover{
+    transform: rotate(0deg);
+    transform: scale(1.5,1.5);
+    z-index: 1;
+    transition-duration: 2s;
+}
+
